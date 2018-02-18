@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">XsChat</string>
+    <string name="chat_service_description">Helps resize images so you have an uninterrupted user experience</string>
+</resources>

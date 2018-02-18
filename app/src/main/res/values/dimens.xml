@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Chat -->
+    <dimen name="chat_window_left_side_width">300dp</dimen>
+    <dimen name="chat_window_right_side_width">400dp</dimen>
+    <dimen name="chat_carousel_height">280dp</dimen>
+    <dimen name="chat_session_area_height">21dp</dimen>
+    <dimen name="chat_status_height">60dp</dimen>
+    <dimen name="chat_host_height">150dp</dimen>
+</resources>
