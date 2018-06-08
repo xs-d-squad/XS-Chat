@@ -5,6 +5,10 @@ import android.support.annotation.Nullable;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.util.DisplayMetrics;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
+import android.widget.Toast;
 
 import com.xs.xschat.R;
 
@@ -45,5 +49,53 @@ public class ChatActivity extends AppCompatActivity {
         // directions left and right
         pager.setCurrentItem(FIRST_PAGE);
         pager.setOffscreenPageLimit(3);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.chat_settings, menu);
+
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        switch (item.getItemId())
+        {
+            case R.id.quick_reply_option:
+
+                Toast.makeText(this, "Quick Reply Activity Here", Toast.LENGTH_SHORT).show();
+                break;
+
+            case R.id.schedule_sending_option:
+
+                Toast.makeText(this, "Schedule Sending Activity Here", Toast.LENGTH_SHORT).show();
+                break;
+
+            case R.id.add_subject_option:
+
+                Toast.makeText(this, "Add Subject Activity Here", Toast.LENGTH_SHORT).show();
+                break;
+
+            case R.id.smiley_option:
+
+                Toast.makeText(this, "Insert Smiley Activity Here", Toast.LENGTH_SHORT).show();
+                break;
+
+            case R.id.edit_recipients_option:
+
+                Toast.makeText(this, "Edit Recipients Activity Here", Toast.LENGTH_SHORT).show();
+                break;
+
+            case R.id.recipients_menu_option:
+
+                Toast.makeText(this, "Recipients Menu Activity Here", Toast.LENGTH_SHORT).show();
+                break;
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 }
