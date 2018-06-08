@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/quick_reply_option"
+        android:title="@string/quick_reply" />
+    <item
+        android:id="@+id/schedule_sending_option"
+        android:title="@string/schedule_sending" />
+    <item
+        android:id="@+id/add_subject_option"
+        android:title="@string/add_subject" />
+    <item
+        android:id="@+id/smiley_option"
+        android:title="@string/insert_smiley" />
+    <item
+        android:id="@+id/edit_recipients_option"
+        android:title="@string/edit_recipients" />
+    <item
+        android:id="@+id/recipients_menu_option"
+        android:title="@string/recipients_menu" />
+</menu>
