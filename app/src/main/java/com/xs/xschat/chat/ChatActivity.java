@@ -65,34 +65,39 @@ public class ChatActivity extends AppCompatActivity {
 
         switch (item.getItemId())
         {
-            case R.id.quick_reply_option:
+            case R.id.insert_smiley_option:
 
-                Toast.makeText(this, "Quick Reply Activity Here", Toast.LENGTH_SHORT).show();
-                break;
-
-            case R.id.schedule_sending_option:
-
-                Toast.makeText(this, "Schedule Sending Activity Here", Toast.LENGTH_SHORT).show();
-                break;
-
-            case R.id.add_subject_option:
-
-                Toast.makeText(this, "Add Subject Activity Here", Toast.LENGTH_SHORT).show();
-                break;
-
-            case R.id.smiley_option:
-
-                Toast.makeText(this, "Insert Smiley Activity Here", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Handle smiley here.", Toast.LENGTH_SHORT).show();
                 break;
 
             case R.id.edit_recipients_option:
 
-                Toast.makeText(this, "Edit Recipients Activity Here", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Handle edit recipients here.", Toast.LENGTH_SHORT).show();
+                break;
+
+            case R.id.quick_reply_option:
+
+                Toast.makeText(this, "Handle quick reply here.", Toast.LENGTH_SHORT).show();
+                break;
+
+            case R.id.schedule_sending_option:
+
+                Toast.makeText(this, "Handle schedule sending here.", Toast.LENGTH_SHORT).show();
+                break;
+
+            case R.id.add_subject_option:
+
+                Toast.makeText(this, "Handle add subject here.", Toast.LENGTH_SHORT).show();
                 break;
 
             case R.id.recipients_menu_option:
 
-                Toast.makeText(this, "Recipients Menu Activity Here", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Handle recipients menu here.", Toast.LENGTH_SHORT).show();
+                break;
+
+            default:
+
+                Toast.makeText(this, "Chat Settings Menu Shell", Toast.LENGTH_SHORT).show();
                 break;
         }
 

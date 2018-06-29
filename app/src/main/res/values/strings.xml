@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">XsChat</string>
     <string name="chat_service_description">Helps resize images so you have an uninterrupted user experience</string>
-    <string name="recipients_menu">recipients menu</string>
-    <string name="edit_recipients">edit recipients</string>
-    <string name="insert_smiley">insert smiley</string>
-    <string name="add_subject">add subject</string>
-    <string name="schedule_sending">send later</string>
-    <string name="quick_reply">quick reply</string>
+    <string name="insert_smiley_option">Insert smiley</string>
+    <string name="edit_recipients_option">Edit recipients</string>
+    <string name="quick_reply_option">Quick reply</string>
+    <string name="schedule_sending_option">Schedule Sending</string>
+    <string name="add_subject_option">Add Subject</string>
+    <string name="recipients_menu_option">Recipients Menu</string>
 </resources>
